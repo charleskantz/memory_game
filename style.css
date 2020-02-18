@@ -1,7 +1,7 @@
 /* Structural Stuff */
 
 html {
-    box-sizing: border-box;
+     box-sizing: border-box;
     height: 100%;
 }
 
@@ -98,6 +98,7 @@ h1 {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    background-position: center;
 }
 
 .game-card-outer {
@@ -115,4 +116,40 @@ h1 {
     margin: 0 auto;
     text-align: center;
 }
+
+/* Card images */
+
+.l {
+    background-image: url('img/cat01.jpg');
+}
+
+.ll {
+    background-image: url('img/cat02.jpg');
+}
+
+.lll {
+    background-image: url('img/cat03.jpg');
+}
+
+.llll {
+    background-image: url('img/cat04.jpg');
+}
+
+.lllll {
+    background-image: url('img/cat05.jpg');
+}
+
+.llllll {
+    background-image: url('img/cat06.jpg');
+}
+
+.lllllll {
+    background-image: url('img/cat07.jpg');
+}
+
+.llllllll {
+    background-image: url('img/cat08.jpg');
+}
+
+
 
