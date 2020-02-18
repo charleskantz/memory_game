@@ -78,7 +78,7 @@ h1 {
     border: 12px solid white;
     border-radius: 8px;
 
-    transition: transform 1s;
+    transition: transform .5s;
     transform-style: preserve-3d;
     cursor: pointer;
     position: relative;
