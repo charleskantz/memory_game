@@ -13,27 +13,29 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: .2px;
     background-image: linear-gradient(19deg, #21D4FD 30%, #B721FF 100%);
+    background-attachment: fixed;
+    height: 100%;
 
 }
 
 .container {
-    max-width: 880px;
+    max-width: 812px;
     margin: 0 auto;
 }
 
 /* Header Stuff */
 
 .header-container {
-    width: 880px;
-    margin: 20px auto;
+    width: 812px;
+    margin: 0 auto 20px;
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-end;
     background-color: white;
-    padding: 32px;
-    border-radius: 12px;
+    padding: 20px 28px 28px;
+    border-radius: 0 0 8px 8px;
 }
 
 .header-start {
@@ -43,11 +45,18 @@ body {
 
 button {
     height: 42px;
-    background-color: #d53369;
+    background-color: #B721FF;
     color: white;
     padding: 0 24px;
     border: none;
     border-radius: 8px;
+    width: 125px;
+}
+
+.game-started {
+    border: 2px solid #B721FF;
+    background-color: white;
+    color: #B721FF;
 }
 
 h1 {
@@ -113,9 +122,11 @@ h1 {
 
 .game-container {
     max-width: 880px;
-    margin: 0 auto;
+    margin: 0 auto 16px;
     text-align: center;
 }
+
+
 
 /* Card images */
 
