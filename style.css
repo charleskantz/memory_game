@@ -53,10 +53,18 @@ button {
     width: 125px;
 }
 
+button:hover {
+    background-color: rgb(196, 70, 255);
+}
+
 .game-started {
     border: 2px solid #B721FF;
     background-color: white;
     color: #B721FF;
+}
+
+.game-started:hover {
+    background-color: rgba(185, 33, 255, 0.151);
 }
 
 h1 {

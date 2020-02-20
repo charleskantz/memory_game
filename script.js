@@ -84,6 +84,9 @@ window.onload = function(){
 
     var currentScore = 0; // number of card turns
     var bestScoreCounter = document.querySelector('.header-score-bestscore');
+    if(!localStorage.getItem('best-score')){
+        localStorage.setItem('best-score', 98);
+    }
     bestScoreCounter.innerHTML = localStorage.getItem('best-score'); // best score is stored in localStorage
 
     function countScore(){
